@@ -1,19 +1,10 @@
 ## 项目功能
 
-**注意该项目的登录态时长默认我设置的是 30  秒 也就是登录之后 超过30秒需要再次登录并且需要登录权限才能访问的界面就不能访问了 再次登录之后即可 在 server/config.js 修改登录态时长**
+**注意该项目的登录态时长默认我设置的是 30 秒 **
 
 **购物车和收藏夹都是和用户进行关联的 不同的用户可以添加和收藏自己的商品**
 
 ### 项目启动
-
-#### 手动启动
-
-+ yarn install
-+ yarn serve
-+ npx json-server --watch db.json --middlewares ./middleware/index.js
-+ node server/server.js
-
-> 在项目根目录下运行
 
 #### 自动启动
 + yarn install  安装依赖
