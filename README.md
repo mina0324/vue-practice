@@ -5,7 +5,7 @@
 
 ### 技术栈
 
-+ Vue2 + VueRouter + Vuex + Axios + Less + Json-Server + NodeJs + express(只做了JWT生成与校验功能的后台,其他的功能都是用的JSONServer)
++ Vue2 + VueRouter + Vuex + Axios + Less + Json-Server + NodeJs + express(只做了JWT生成与校验)
 
 ### 页面
 
@@ -44,10 +44,6 @@ Loading
   + 删除商品
   + 展示多级的商品列表
 + 轮播图预览 - 自己封装组件
-+ 登录业务
-+ 注册业务
-+ 购物车业务
-+ 商品收藏
 + 注销功能
 + 表单数据的校验
 + Vuex 的应用
